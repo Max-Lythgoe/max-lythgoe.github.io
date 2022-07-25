@@ -1,0 +1,25 @@
+.projects-container {
+    background: linear-gradient(0deg, rgba(255,134,134,1) 0%, rgb(130, 16, 16) 100%);
+    margin: none;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitle {
+    font-size: 4em;
+    color: white;
+}
+
+.project-card {
+    background-color: white;
+    margin: 2em;
+    border-radius: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.desc {
+    padding: 2em;
+}
