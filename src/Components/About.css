@@ -1,0 +1,20 @@
+.subtitle-black {
+    font-size: 4em;
+    color: white;
+}
+
+.about-container {
+    background-color: black;
+    color: white;
+    padding: 3em;
+    margin: none;
+}
+
+.main-about-text {
+    margin: 10%;
+    font-size: xx-large;
+}
+
+.featured-pic {
+    width: 26rem;
+}

@@ -4,6 +4,7 @@
     padding: 2em;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .subtitle {
@@ -23,3 +24,10 @@
 .desc {
     padding: 2em;
 }
+
+@media screen and (min-width: 1440px) {
+    .project-card {
+        width: 50%;
+    }
+}
+
