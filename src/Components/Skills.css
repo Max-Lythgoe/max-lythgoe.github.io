@@ -1,34 +1,46 @@
 .skills-container {
-  background-image: url("https://www.computersciencedegreehub.com/wp-content/uploads/2016/02/what-is-coding-1024x683.jpg");
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgb(137, 137, 137) 100%);
   padding: 2em;
   color: white;
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: 0;
-  height: 50em;
-
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
-}
-
-.unordered-list {
-  list-style-type: none;
-  text-align: left;
+  height: auto;
 }
 
 .subtext {
   font-size: 3em;
-  text-align: left;
+  color: black;
 }
 
 .upper-layer {
-  z-index: 2;
   font-weight: bold;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -110%);
   width: 80%;
-  padding: 20px;
   color: white;
+}
+
+i {
+    color: black;
+    font-size: 10em;
+}
+
+
+
+.icon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1em;
+    margin: 2em;
+}
+
+
+.icon-img {
+    height: 10em;
+}
+
+.icon-indv {
+    color: black;
+}
+
+.special {
+    color: black;
 }
