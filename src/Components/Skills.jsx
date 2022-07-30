@@ -8,8 +8,8 @@ const Skills = () => {
     
   return (
     <div>
-    <div className='skills-container'>
-        <h3 className='subtitle special'>SKILLS</h3>
+    <div className='skills-container' id="skills">
+        <h3 className='subtitle special' >SKILLS</h3>
         <h3 className='subtext'>Web Tools</h3>
 
         <div className='icon-container'>
@@ -45,15 +45,15 @@ const Skills = () => {
         data-aos="fade-up"
         data-aos-anchor-placement="top-center"
         data-aos-duration="600">
-        <i class="fa-brands fa-bootstrap"></i>
-        <p>Bootstrap</p>
+        <i class="fa-brands fa-node-js"></i>
+        <p>Node-js</p>
         </div>
         <div className='icon-indv'
         data-aos="fade-up"
         data-aos-anchor-placement="top-center"
         data-aos-duration="700">
-        <i class="fa-brands fa-square-github"></i>
-        <p>Github</p>
+        <i class="fa-solid fa-database"></i>
+        <p>PostgreSQL</p>
         </div>
         </div>
 
@@ -62,42 +62,48 @@ const Skills = () => {
             <div className='icon-indv'
             data-aos="fade-up"
             data-aos-anchor-placement="top-center"
-            data-aos-duration="200">
+            data-aos-duration="200"
+            data-aos-offset="-300">
                 <img alt='premiere pro icon' className='icon-img' src="https://cdn-icons-png.flaticon.com/512/5968/5968575.png"></img>
                 <p>Premiere Pro</p>
             </div>
             <div className='icon-indv'
             data-aos="fade-up"
             data-aos-anchor-placement="top-center"
-            data-aos-duration="300">
+            data-aos-duration="300"
+            data-aos-offset="-300">
                 <img alt='photoshop icon' className='icon-img' src="https://cdn-icons-png.flaticon.com/512/5968/5968572.png"></img>
                 <p>Photoshop</p>
             </div>
             <div className='icon-indv'
             data-aos="fade-up"
             data-aos-anchor-placement="top-center"
-            data-aos-duration="400">
+            data-aos-duration="400"
+            data-aos-offset="-300">
                 <img alt='illustrator icon' className='icon-img' src="https://cdn-icons-png.flaticon.com/512/5968/5968522.png"></img>
                 <p>Illustrator</p>
             </div>
             <div className='icon-indv'
             data-aos="fade-up"
             data-aos-anchor-placement="top-center"
-            data-aos-duration="500">
+            data-aos-duration="500"
+            data-aos-offset="-300">
                 <img alt='after effects icon' className='icon-img' src="https://cdn-icons-png.flaticon.com/512/5968/5968474.png"></img>
                 <p>After Effects</p>
             </div>
             <div className='icon-indv'
             data-aos="fade-up"
             data-aos-anchor-placement="top-center"
-            data-aos-duration="600">
+            data-aos-duration="600"
+            data-aos-offset="-300">
                 <img alt='audition icon' className='icon-img' src="https://cdn-icons-png.flaticon.com/512/5968/5968486.png"></img>
                 <p>Audition</p>
             </div>
             <div className='icon-indv'
             data-aos="fade-up"
             data-aos-anchor-placement="top-center"
-            data-aos-duration="700">
+            data-aos-duration="700"
+            data-aos-offset="-300">
                 <img alt='character animator icon' className='icon-img' src="https://cdn-icons-png.flaticon.com/512/5968/5968501.png"></img>
                 <p>Character Animator</p>
             </div>

@@ -9,10 +9,11 @@ const Projects = () => {
 
   return (
     <div className='projects-container'>
-        <h2 className='subtitle'>PROJECTS</h2>
+        <h2 className='subtitle' id="projects">PROJECTS</h2>
 
         <div className='project-card' data-aos="fade-up"
-     data-aos-anchor-placement="top-center">
+     data-aos-anchor-placement="top-center"
+     data-aos-offset="-500">
             <h3 className='project-title'>TechStack</h3>
             <h4 className='project-subtitle'>React.js Frontend, Node.js Backend, and PostgreSQL Database</h4>
             <a href='https://github.com/Max-Lythgoe/Specs-Capstone'>Link to Github Repository</a>

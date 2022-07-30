@@ -14,8 +14,9 @@ const About = () => {
      data-aos-anchor="#example-anchor"
      data-aos-offset="500"
      data-aos-duration="500"
+     id="about"
       >
-        <h2 className="subtitle-black">ABOUT ME</h2>
+        <h2 className="subtitle-black" >ABOUT ME</h2>
         <div
         data-aos="fade-left"
         data-aos-anchor="#example-anchor"

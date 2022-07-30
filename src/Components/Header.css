@@ -11,6 +11,29 @@
     font-size: 6em;
 }
 
+.main-subtext {
+  color: white;
+  font-style: italic;
+}
+
+.links-container {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+a {
+  color: white;
+}
 
 @keyframes gradient {
     0% {
