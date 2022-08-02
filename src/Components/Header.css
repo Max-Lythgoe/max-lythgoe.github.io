@@ -72,4 +72,19 @@ a:hover:after {
     100% {
       background-position: 0% 50%;
     }
-  }
+}
+
+@media only screen 
+    and (device-width: 390px) 
+    and (device-height: 844px) {
+
+      .main-title {
+        color: white;
+        font-size: 2em;
+    }
+
+    .links-container {
+      flex-direction: column;
+    }
+
+}

@@ -25,3 +25,8 @@
   background-color: white;
   border-radius: 8px;
 }
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}

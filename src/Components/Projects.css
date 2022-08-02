@@ -24,6 +24,7 @@
 .project-subtitle {
     font-style: italic;
     color: gray;
+    margin: 1em;
 }
 
 .red-button {
@@ -61,3 +62,30 @@
     }
 }
 
+@media only screen 
+    and (device-width: 390px) 
+    and (device-height: 844px) {
+
+    .project-card {
+        width: 100%;
+        height: 50%;
+    }
+
+    .subtitle {
+        font-size: 3em;
+    }
+
+    .projects-container {
+        padding: 10px;
+    }
+
+    .desc {
+        font-size: small;
+    }
+
+    iframe {
+        width: auto;
+        height: auto;
+    }
+
+}

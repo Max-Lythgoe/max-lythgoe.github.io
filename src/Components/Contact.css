@@ -25,3 +25,17 @@
 .shake {
   transition: all 0.2s ease-in-out;
 }
+
+@media only screen 
+    and (device-width: 390px) 
+    and (device-height: 844px) {
+
+      .shake  {
+        font-size: 3em;
+      }
+
+      .icon-container-contact {
+        gap: 0;
+      }
+
+}

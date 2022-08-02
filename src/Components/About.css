@@ -18,3 +18,25 @@
 .featured-pic {
     width: 26rem;
 }
+
+@media only screen 
+    and (device-width: 390px) 
+    and (device-height: 844px) {
+
+    .subtitle-black {
+        font-size: 3em;
+    }
+
+    .main-about-text {
+        font-size: medium;
+    }
+
+    .about-container {
+        padding: 1em;
+    }
+
+    .featured-pic {
+        width: 15rem;
+    }
+
+}
